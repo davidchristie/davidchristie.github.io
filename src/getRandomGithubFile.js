@@ -45,7 +45,7 @@ export default async function getRandomGithubFile () {
   const file = pickRandom(getFiles(tree))
   const { path } = file
   const raw = await axios.get(
-    `https://cdn.rawgit.com/${owner}/${repo}/${branch.name}/${path}`
+    `https://rawcdn.githack.com/${owner}/${repo}/${branch.name}/${path}`
   )
     .then(response => response.data)
   return {
