@@ -17,7 +17,7 @@
     "react-dom": "^15.6.2"
   },
   "devDependencies": {
-    "react-scripts": "^3.2.0"
+    "react-scripts": "^5.0.1"
   },
   "name": "davidchristie.github.io",
   "private": true,
